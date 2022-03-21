@@ -7,7 +7,7 @@ and [🤗 Huggingface model hub](https://huggingface.co/malteos/aspect-scibert-t
 
 ## Demo
 
-[Try your own papers on our 🤗 Huggingface spaces.](https://huggingface.co/spaces/malteos/aspect-based-paper-similarity)
+[Try your own papers on 🤗 Huggingface spaces.](https://huggingface.co/spaces/malteos/aspect-based-paper-similarity)
 
 ## How to use the pretrained models
 
