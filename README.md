@@ -5,17 +5,16 @@ This repository contains the supplemental materials for the JCDL2022 paper **Spe
 Trained models and datasets can be downloaded from [GitHub releases](https://github.com/malteos/aspect-document-embeddings/releases) 
 and [🤗 Huggingface model hub](https://huggingface.co/malteos/aspect-scibert-task).
 
-## Requirements
+## Demo
 
-- Python 3.7
-- CUDA GPU (for Transformers)
+[Try your own papers on our 🤗 Huggingface spaces.](https://huggingface.co/spaces/malteos/aspect-based-paper-similarity)
 
 ## How to use the pretrained models
 
 We provide a SciBERT-based model for each of the three aspects: 
-[malteos/aspect-scibert-task](https://huggingface.co/malteos/aspect-scibert-task),
-[malteos/aspect-scibert-method](https://huggingface.co/malteos/aspect-scibert-method),
-[malteos/aspect-scibert-dataset](https://huggingface.co/malteos/aspect-scibert-dataset).
+🎯 [malteos/aspect-scibert-task](https://huggingface.co/malteos/aspect-scibert-task),
+🔨 [malteos/aspect-scibert-method](https://huggingface.co/malteos/aspect-scibert-method),
+🏷️ [malteos/aspect-scibert-dataset](https://huggingface.co/malteos/aspect-scibert-dataset).
 To use these models, you need to install 🤗 Transformers first via `pip install transformers`.
 
 ```python
@@ -45,6 +44,10 @@ embeddings = torch.sum(
 
 ```
 
+## Requirements
+
+- Python 3.7
+- CUDA GPU (for Transformers)
 
 ## Installation
 
