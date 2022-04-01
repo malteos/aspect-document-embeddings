@@ -1,7 +1,7 @@
 # Specialized Document Embeddings for Aspect-based Similarity of Research Papers
 
 This repository contains the supplemental materials for the JCDL2022 paper **Specialized Document Embeddings for Aspect-based Similarity of Research Papers** 
-[(PDF on ArXiv)](#TODO).
+[(PDF on ArXiv)](https://arxiv.org/abs/2203.14541).
 Trained models and datasets can be downloaded from [GitHub releases](https://github.com/malteos/aspect-document-embeddings/releases) 
 and [🤗 Huggingface model hub](https://huggingface.co/malteos/aspect-scibert-task).
 
@@ -160,7 +160,7 @@ jupyter notebook samples.ipynb
 
 ## How to cite
 
-If you are using our code or data, please cite [our paper](#TODO):
+If you are using our code or data, please cite [our paper](https://arxiv.org/abs/2203.14541):
 
 ```bibtex
 @InProceedings{Ostendorff2022,
